@@ -1,0 +1,31 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+                    &\multicolumn{1}{c}{Paidwork}&\multicolumn{1}{c}{Dropout}\\
+\hline
+-3 years $\times$ Within 5km&      -0.021         &       0.003         \\
+                    &     [0.023]         &     [0.017]         \\
+-2 years $\times$ Within 5km&      -0.006         &      -0.009         \\
+                    &     [0.011]         &     [0.011]         \\
+Project start year $\times$ Within 5km&       0.055\sym{***}&       0.040\sym{*}  \\
+                    &     [0.018]         &     [0.023]         \\
++1 year $\times$ Within 5km&       0.059\sym{***}&       0.056\sym{**} \\
+                    &     [0.018]         &     [0.028]         \\
++2 years $\times$ Within 5km&       0.037\sym{**} &       0.000         \\
+                    &     [0.015]         &         [.]         \\
++3 years $\times$ Within 5km&       0.029         &       0.000         \\
+                    &     [0.017]         &         [.]         \\
++4 years $\times$ Within 5km&       0.017         &       0.000         \\
+                    &     [0.017]         &         [.]         \\
++5 years $\times$ Within 5km&       0.024         &       0.000         \\
+                    &     [0.019]         &         [.]         \\
+\hline
+Observations        &       60624         &       30521         \\
+Adjusted \(R^{2}\)  &       0.017         &       0.008         \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in brackets}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
